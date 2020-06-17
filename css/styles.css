@@ -55,8 +55,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: black;
-  text-align: left;
-  background-color: black; }
+  text-align: left;}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -130,12 +129,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: white;
-    text-decoration: underline; }
+    color: var(--gray-dark);
+    text-decoration: none; }
 
 a:not([href]) {
   color: inherit;
@@ -165,7 +164,9 @@ img {
 
 svg {
   overflow: hidden;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
+  
 
 table {
   border-collapse: collapse; }
@@ -510,7 +511,8 @@ pre {
   position: relative;
   width: 100%;
   padding-right: 1.5rem;
-  padding-left: 1.5rem; }
+  padding-left: 1.5rem; 
+text-align: center;}
 
 .col {
   flex-basis: 0;
@@ -2089,10 +2091,10 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa; }
+  color: black;
+  border-color: black; }
   .btn-outline-light:hover {
-    color: #212529;
+    color: grey;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
   .btn-outline-light:focus, .btn-outline-light.focus {
@@ -4702,7 +4704,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #000000; }
+  background-color: white; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4710,7 +4712,7 @@ button.bg-primary:focus {
   background-color: black !important; }
 
 .bg-secondary {
-  background-color: #000000 !important; }
+  background-color: white !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -7026,7 +7028,7 @@ button.bg-dark:focus {
   font-style: italic !important; }
 
 .text-white {
-  color: #fff; }
+  color: black; }
 
 .text-primary {
   color: #000000 !important; }
@@ -7080,7 +7082,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529 !important; }
 
 .text-muted {
-  color: white; }
+  color: black; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
@@ -7190,7 +7192,7 @@ h3 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #000000;
+    background-color: black;
     border-radius: 1rem;
     border-color: #000000 !important; }
     .divider-custom .divider-custom-line:first-child {
@@ -7235,11 +7237,11 @@ h3 {
   font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700; }
   #mainNav .navbar-brand {
-    color: #fff; }
+    color: black; }
   #mainNav .navbar-nav {
     margin-top: 1rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #fff; }
+      color: black; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: lightgrey; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -7383,11 +7385,11 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #000000;
-  color: #fff; }
+  background-color: white;
+  color: black; }
 
 .copyright {
-  background-color: black; }
+  background-color: white; }
 
 #brandImage {
   height: 2rem; }
@@ -7403,17 +7405,18 @@ form .row:first-child .floating-label-form-group {
   white-space: pre; }
 
 .pre-wrap {
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+text-align: justify; }
 
 .icon-contact {
   display: flex;
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  background-color: white;
-  color: black;
+  font-size: 3rem;
+  background-color: black;
+  color: white;
   border-radius: 100%; }
 
 .navbar-brand img {
@@ -7446,5 +7449,3 @@ form .row:first-child .floating-label-form-group {
 .text-white {
   color: black;
 }
- 
-
