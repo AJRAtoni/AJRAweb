@@ -133,7 +133,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: var(--gray-dark);
+    color: grey;
     text-decoration: none; }
 
 a:not([href]) {
@@ -4706,14 +4706,6 @@ a.close.disabled {
 .bg-primary {
   background-color: white; }
 
-a.bg-primary:hover, a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
-  background-color: black !important; }
-
-.bg-secondary {
-  background-color: white !important; }
-
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
@@ -7200,12 +7192,12 @@ h3 {
     .divider-custom .divider-custom-line:last-child {
       margin-left: 1rem; }
   .divider-custom .divider-custom-icon {
-    color: #000000 !important;
+    color: #000000;
     font-size: 2rem; }
   .divider-custom.divider-light .divider-custom-line {
     background-color: #fff; }
   .divider-custom.divider-light .divider-custom-icon {
-    color: #fff !important; }
+    color: #fff; }
 
 .btn-xl {
   padding: 1rem 1.75rem;
@@ -7246,8 +7238,6 @@ h3 {
         color: lightgrey; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
-      #mainNav .navbar-nav li.nav-item a.nav-link.active {
-      color: #fff; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -7382,12 +7372,6 @@ h3 {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
 
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: white;
-  color: black; }
-
 .copyright {
   background-color: white; }
 
@@ -7396,7 +7380,8 @@ form .row:first-child .floating-label-form-group {
 
 .portfolio {
   padding-top: 6rem;
-  padding-bottom: 4.5rem; }
+  padding-bottom: 4.5rem; 
+  background-color: white; }
 
 .page-section-heading {
   display: inline-block; }
@@ -7433,21 +7418,42 @@ text-align: justify; }
 
 
 
+
+
+
   @media (prefers-color-scheme: dark) {
     .bg-primary {  
-    background: white;
-    color: black;
-  } 
-  .portfolio {  
-    background: white;
-    color: black;
-  } 
-  .masthead .masthead-heading {
-    color: black;
-    }
-.footer {
-  background: white;
-}
-.text-white {
-  color: black;
-}
+    background: black;
+  }
+  .portfolio {
+    background: black;
+  }
+  #mainNav .navbar-brand {
+    color: white; }
+    #mainNav .navbar-nav li.nav-item a.nav-link {
+      color: white; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: black;
+        background: white; }
+      .text-white {
+        color: white; }
+        .divider-custom-line  {
+          background-color: white !important;
+        }
+        .divider-custom-icon {
+          color: white !important;
+        }
+        .icon-contact {
+background-color: white;
+        color: black;}
+        a {
+          color:white;
+        }
+        a:hover {
+          color: lightgrey;}
+        .text-muted {
+          color: white; }
+
+          .btn-outline-light {
+            color: white;
+            border-color: white; }
