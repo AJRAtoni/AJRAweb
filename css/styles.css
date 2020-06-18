@@ -7412,7 +7412,9 @@ text-align: justify; }
 .btn-social {
   margin-bottom: 0.5rem; }
 
-
+.iconoenlace {
+  color:white !important;
+}
 
 
 
@@ -7457,3 +7459,8 @@ background-color: white;
           .btn-outline-light {
             color: white;
             border-color: white; }
+
+            .iconoenlace {
+              color:black !important;
+            }
+            
