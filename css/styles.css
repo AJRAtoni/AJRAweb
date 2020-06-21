@@ -700,7 +700,7 @@ fieldset:disabled a.btn{pointer-events:none;}
 .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active, .show > .btn-outline-danger.dropdown-toggle{color:#fff;background-color:#dc3545;border-color:#dc3545;}
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger.dropdown-toggle:focus{box-shadow:0 0 0 0.2rem rgba(220, 53, 69, 0.5);}
 .btn-outline-light{color:black;border-color:black;}
-.btn-outline-light:hover{color:grey;background-color:#f8f9fa;border-color:#f8f9fa;}
+.btn-outline-light:hover{color:white;background-color:black;}
 .btn-outline-light:focus, .btn-outline-light.focus{box-shadow:0 0 0 0.2rem rgba(248, 249, 250, 0.5);}
 .btn-outline-light.disabled, .btn-outline-light:disabled{color:#f8f9fa;background-color:transparent;}
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa;}
@@ -1912,7 +1912,7 @@ button.bg-dark:focus{background-color:#1d2124 !important;}
 .mr-5,
 .mx-5{margin-right:3rem !important;}
 .mb-5,
-.my-5{margin-bottom:3rem !important;}
+.my-5{margin-bottom:3rem !important; text-align: left;}
 .ml-5,
 .mx-5{margin-left:3rem !important;}
 .p-0{padding:0 !important;}
@@ -2808,7 +2808,7 @@ width:15rem;}
 .masthead .masthead-subheading{font-size:1.5rem;}
 }
 .portfolio .portfolio-item{cursor:pointer;position:relative;display:block;max-width:25rem;border-radius:0.5rem;overflow:hidden;}
-.portfolio .portfolio-item .portfolio-item-caption{position:absolute;top:0;left:0;transition:all 0.2s ease-in-out;opacity:0;background-color:rgba(0, 0, 0, 0.9);}
+.portfolio .portfolio-item .portfolio-item-caption{position:absolute;top:0;left:0;transition:all 0.2s ease-in-out;opacity:0;background-color:rgba(255, 255, 255, 0.7);}
 .portfolio .portfolio-item .portfolio-item-caption:hover{opacity:1;}
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content{font-size:1.5rem;}
 .portfolio-modal .portfolio-modal-title{font-size:2.25rem;line-height:2rem;}
@@ -2846,4 +2846,7 @@ a{color:white;}
 a:hover{color:lightgrey;}
 .text-muted{color:white;}
 .btn-outline-light{color:white;border-color:white;}
+.btn-outline-light:hover{color:black;background-color:white;}
 .iconoenlace{color:black !important;}
+.portfolio .portfolio-item .portfolio-item-caption{position:absolute;top:0;left:0;transition:all 0.2s ease-in-out;opacity:0;background-color:rgba(19, 19, 19, 0.7);}
+.footer-izquierda {margin-bottom:1.5rem !important; text-align: center;}
