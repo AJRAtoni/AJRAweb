@@ -7293,6 +7293,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 
 .mb-4, .my-4 {
     margin-bottom: 1.5rem !important;
+    padding-top: 2.5em;
 }
 
 .ml-4, .mx-4 {
@@ -8771,7 +8772,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 }
 
 .text-white {
-    color: black;
+    color: black !important;
 }
 
 .text-primary {
@@ -8843,7 +8844,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-    color: black;
+    color: black !important;
 }
 
 .text-black-50 {
@@ -9303,7 +9304,7 @@ form .row:first-child .floating-label-form-group {
         background: white;
     }
     .text-white {
-        color: white;
+        color: white !important;
     }
     .divider-custom-line {
         background-color: white !important;
@@ -9322,7 +9323,7 @@ form .row:first-child .floating-label-form-group {
         color: lightgrey;
     }
     .text-muted {
-        color: white;
+        color: white !important;
     }
     .btn-outline-light {
         color: white;
