@@ -3,7 +3,7 @@ $(function() {
 
 		message: [
 			'Web Developer', 
-			'Data Analyts', 
+			'Data Analyst', 
 		],
 		counterS: 0,
 		counterL: 0,
