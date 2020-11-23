@@ -20,6 +20,7 @@ a.text-dark:hover {color: grey !important;}
 .divider-custom.divider-light .divider-custom-icon{color:#fff}
 .columna-contacto {margin-top: 3rem; margin-bottom: 3rem;}
 .btn-redes {border-radius: 100%; display: inline-flex; width: 3.25rem; height: 3.25rem; font-size: 1.25rem; justify-content: center; align-items: center; border: .125rem solid}
+.btn-outline-dark {border-color: black !important; color: black;}
 .btn-outline-dark:hover {background-color: black;}
 @media(prefers-color-scheme:dark) {
 body {background-color: black}
