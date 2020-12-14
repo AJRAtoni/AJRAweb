@@ -47,4 +47,6 @@ a.text-dark:hover {color: lightgray !important;}
 .text-white {color: black !important}
 .icon-contact{background-color: white !important;}
 .scroll-to-top a{width:3.2rem;height:3.2rem;background-color:black ;border:1px solid;line-height:3.2rem; border-color: white; color: white}
+.boton.apple {border: solid 1px; border-color: white}
+.boton.google {border: solid 1px; border-color: white}
 }
