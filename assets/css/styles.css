@@ -1,5 +1,5 @@
 .menucito {max-width: 1140px; margin: auto;}
-#mainNav .navbar-toggler {font-size: 80%; padding:.8rem;}
+#mainNav .navbar-toggler {color: black;font-size: 80%; padding:.8rem;}
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {color:grey !important}
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {color: white !important;background:black}
 a:hover {color: grey;text-decoration:none}
