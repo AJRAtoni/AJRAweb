@@ -1,52 +1,207 @@
-.menucito {max-width: 1140px; margin: auto;}
-#mainNav .navbar-toggler {color: black;font-size: 80%; padding:.8rem;}
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {color:grey !important}
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active {color: white !important;background:black}
-a:hover {color: grey;text-decoration:none}
-.text-dark {color: black !important}
-a.text-dark:hover {color: grey !important;}
-.masthead {padding-top: calc(6rem + 50px);padding-bottom:7rem}
-.masthead-corto {padding-top: calc(6rem + 50px);padding-bottom:0}
-.avatar {margin-bottom: 3rem !important}
-.tituloajra {font-size: 4rem}
-.icon-contact {display:flex;height:7rem;width:7rem;align-items:center;justify-content:center;font-size:3rem;background-color:black;color:white;border-radius:100%;margin-top:50px}
-.page-section {padding:6rem 0}
-.blanco:hover {color:white !important}
-.divider-custom{width:100%;display:flex;justify-content:center;align-items:center}
-.divider-custom .divider-custom-line{width:100%;max-width:7rem;height:0.25rem;background-color:#000;border-radius:1rem;border-color:#000!important}
-.divider-custom .divider-custom-line:first-child{margin-right:1rem}
-.divider-custom .divider-custom-line:last-child{margin-left:1rem}
-.divider-custom .divider-custom-icon{color:#000;font-size:2rem}
-.divider-custom.divider-light .divider-custom-line{background-color:#fff}
-.divider-custom.divider-light .divider-custom-icon{color:#fff}
-.columna-contacto {margin-top: 3rem; margin-bottom: 3rem;}
-.btn-redes {border-radius: 100%; display: inline-flex; width: 3.25rem; height: 3.25rem; font-size: 1.25rem; justify-content: center; align-items: center; border: .125rem solid}
-.btn-outline-dark {border-color: black !important; color: black;}
-.btn-outline-dark:hover {background-color: black;}
-.scroll-to-top {z-index:1042;right:1rem;bottom:1rem;display:none}
-.scroll-to-top a{width:3.2rem;height:3.2rem;background-color:white ;border:1px solid;line-height:3.2rem; border-color: black; color: black}
-.botones {width: 100%;text-align: center;margin: 0;padding: 0;}
-.boton {display: inline-block;width: 150px;height: 50px;padding-left: 20px;background: #000;color: #fff;font-size: 1.2em;text-decoration: none;text-align: center;line-height: 50px;margin: 40px 5px 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-webkit-box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);-moz-box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);transition: box-shadow 0.5s;}
-.boton:hover {color: white;-webkit-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);-moz-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);transition: box-shadow 0.5s;}
-.boton.apple {background-image: url("http://vignette2.wikia.nocookie.net/respawnables/images/2/2f/Apple-logo-white-md.png/revision/latest?cb=20160224124036");background-size: 20px auto;background-repeat: no-repeat;background-position: 20px center;}
-.boton.google {background-image: url("http://vignette3.wikia.nocookie.net/starwars/images/e/ee/Google_Play_logo.png/revision/latest?cb=20141119230612");background-size: 20px auto;background-repeat: no-repeat;background-position: 20px center;}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: white !important;
+    background: black
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none
+}
+
+.text-dark {
+    color: black !important
+}
+
+a.text-dark:hover {
+    color: grey !important;
+}
+
+.avatar {
+    margin-bottom: 1.5rem !important
+}
+
+.tituloajra {
+    font-size: 4rem
+}
+
+.icon-contact {
+    display: flex;
+    height: 7rem;
+    width: 7rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    margin-top: 50px
+}
+
+.divider-custom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #000;
+    border-radius: 1rem;
+    border-color: #000!important
+}
+
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem
+}
+
+.divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem
+}
+
+.divider-custom .divider-custom-icon {
+    color: #000;
+    font-size: 2rem
+}
+
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #fff
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+    color: #fff
+}
+
+.btn-redes {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border: .125rem solid
+}
+
+.btn-outline-dark {
+    border-color: black !important;
+    color: black;
+}
+
+.btn-outline-dark:hover {
+    background-color: black;
+}
+
+
+.botones {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.boton {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding-left: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 40px 5px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 12px 20px -10px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 12px 20px -10px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 12px 20px -10px rgba(0, 0, 0, 0.65);
+    transition: box-shadow 0.5s;
+}
+
+.boton:hover {
+    color: white;
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.65);
+    transition: box-shadow 0.5s;
+}
+
+.boton.apple {
+    background-image: url("http://vignette2.wikia.nocookie.net/respawnables/images/2/2f/Apple-logo-white-md.png/revision/latest?cb=20160224124036");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+.boton.google {
+    background-image: url("http://vignette3.wikia.nocookie.net/starwars/images/e/ee/Google_Play_logo.png/revision/latest?cb=20141119230612");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
 
 @media(prefers-color-scheme:dark) {
-body {background-color: black}
-.menucito {background-color: black !important;}
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {color:lightgray !important}
-.text-dark {color:white !important}
-a.text-dark:hover {color: lightgray !important;}
-.bg-white {background-color: black !important}
-.divider-custom .divider-custom-line{background-color:white;border-color:white!important}
-.divider-custom .divider-custom-icon {color: white;}
-#mainNav .navbar-toggler {color: white; border: none;}
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active {color: black !important;background:white !important}
-.btn-outline-dark {color: white !important; border-color: white !important}
-.btn-outline-dark:hover {background-color: white !important; color: black !important;}
-.text-white {color: black !important}
-.icon-contact{background-color: white !important;}
-.scroll-to-top a{width:3.2rem;height:3.2rem;background-color:black ;border:1px solid;line-height:3.2rem; border-color: white; color: white}
-.boton.apple {border: solid 1px; border-color: white}
-.boton.google {border: solid 1px; border-color: white}
+    body {
+        background-color: black
+    }
+    #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+        color: lightgray !important
+    }
+    .text-dark {
+        color: white !important
+    }
+    a.text-dark:hover {
+        color: lightgray !important;
+    }
+    .bg-white {
+        background-color: black !important
+    }
+    .divider-custom .divider-custom-line {
+        background-color: white;
+        border-color: white!important
+    }
+    .divider-custom .divider-custom-icon {
+        color: white;
+    }
+    #mainNav .navbar-toggler {
+        color: white;
+        border: none;
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+        color: black !important;
+        background: white !important
+    }
+    .btn-outline-dark {
+        color: white !important;
+        border-color: white !important
+    }
+    .btn-outline-dark:hover {
+        background-color: white !important;
+        color: black !important;
+    }
+    .text-white {
+        color: black !important
+    }
+    .icon-contact {
+        background-color: white !important;
+    }
+   
+    .boton.apple {
+        border: solid 1px;
+        border-color: white
+    }
+    .boton.google {
+        border: solid 1px;
+        border-color: white
+    }
 }
