@@ -90,14 +90,6 @@ a.text-dark:hover {
     background-color: black;
 }
 
-
-.botones {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
 .boton {
     display: inline-block;
     width: 150px;
@@ -140,7 +132,6 @@ a.text-dark:hover {
     background-repeat: no-repeat;
     background-position: 20px center;
 }
-
 
 @media(prefers-color-scheme:dark) {
     body {
