@@ -7,6 +7,10 @@
     background: black
 }
 
+a {
+    text-decoration: none !important;
+}
+
 a:hover {
     color: grey;
     text-decoration: none
@@ -178,7 +182,6 @@ a.text-dark:hover {
     .icon-contact {
         background-color: white !important;
     }
-   
     .boton.apple {
         border: solid 1px;
         border-color: white
